@@ -1,0 +1,40 @@
+@import "style-modules/normalize-plus.scss";
+@import "style-modules/fonts.scss";
+
+
+
+.content{
+  &__wrapper{
+    min-height: 90%;
+    margin: 0 auto;
+    @media screen and (min-width:700px){
+      max-width: 1020px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    @media screen and (max-width: 699px){
+      padding-left: 10px;
+      padding-right:10px;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .main{
+    flex: 1;
+  }
+  .footer{
+    height: 100px;
+  }
+}
+@media screen and (min-width:860px) {
+  @import "style-modules/header.scss";
+  @import "style-modules/footer-desktop.scss";
+}
+h1{
+  color: red;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+}

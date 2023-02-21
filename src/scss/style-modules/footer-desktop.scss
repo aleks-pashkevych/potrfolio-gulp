@@ -1,0 +1,19 @@
+.footer{
+  width:100%;
+  &__wrapper{
+    max-width: 1060px;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: space-between;
+  }
+  &__social{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:10%;
+  }
+}

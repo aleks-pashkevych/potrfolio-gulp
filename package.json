@@ -1,0 +1,68 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Creating GULP project structure for developing web-projects",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgSprive": "gulp svgSprive",
+    "dev": "gulp",
+    "build": "gulp build --build",
+    "zip": "gulp deployZIP --build",
+    "deploy": "gulp deployFTP --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleks-pashkevych/template.git"
+  },
+  "keywords": [
+    "empty",
+    "GULP",
+    "project"
+  ],
+  "author": "Oleksandr Pashkevych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleks-pashkevych/template/issues"
+  },
+  "homepage": "https://github.com/aleks-pashkevych/template#readme",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "cross-env": "latest",
+    "del": "^6.1.1",
+    "fs": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-fonter": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-svg-sprite": "latest",
+    "gulp-ttf-to-woff": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-version-number": "latest",
+    "gulp-webp": "latest",
+    "gulp-webp-html-nosvg": "latest",
+    "gulp-webpcss": "latest",
+    "gulp-zip": "latest",
+    "normalize.css": "^8.0.1",
+    "sass": "latest",
+    "swiper": "latest",
+    "vinyl-ftp": "latest",
+    "webp-converter": "2.2.3",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "dependencies": {
+    "cwebp": "^2.0.5"
+  }
+}

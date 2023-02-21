@@ -1,0 +1,35 @@
+.header{
+  width:100%;
+  position:sticky;
+  top:0;
+  left: 0;
+  &__wrapper{
+    margin: 0 auto;
+    max-width: 1060px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &__navigation{
+    width:60%;
+  }
+  &__menu{
+    display: flex;
+    justify-content: flex-end;
+    gap:10%;
+    align-items:center;
+    &-link{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #21243D;
+      &:hover{
+        color:black;
+        text-shadow: 2px 2px #d1d0d0;
+      }
+    }
+  }
+}
