@@ -3,6 +3,8 @@
   position:sticky;
   top:0;
   left: 0;
+  z-index: 9;
+  background-color: #fff;
   &__wrapper{
     margin: 0 auto;
     max-width: 1060px;
@@ -32,4 +34,7 @@
       }
     }
   }
+}
+.burger{
+  display: none;
 }
