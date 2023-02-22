@@ -1,0 +1,49 @@
+.works{
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 10px;
+  }
+  &__description{
+    max-width: 60%;
+  }
+  &__img{
+    border-radius:20px;
+  }
+  &__headline{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: .02em;
+  }
+  &__result{
+    line-height: 460%;
+  }
+  &__year{
+    background-color:#142850;
+    border-radius:16px;
+    color:#fff;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: .04em;
+    padding: 2px 10px;
+  }
+  &__type{
+    font-size: 20px;
+    letter-spacing: .06em;
+    opacity: .8;
+    margin-left: 20px;
+
+  }
+  &__definition{
+    font-size: 16px;
+    line-height: 160%;
+  }
+  &__line{
+    border: 2px solid #E0E0E0;
+    border-radius:1px;
+    width:90%;
+    margin: 60px auto;
+  }
+}

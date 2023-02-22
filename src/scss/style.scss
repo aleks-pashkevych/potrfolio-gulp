@@ -6,6 +6,7 @@ body{
   color: #21243D;
   font-style: normal;
   font-weight: 400;
+  background-color:#fffcfc;
 }
 .content{
   &__wrapper{
@@ -36,12 +37,23 @@ body{
 }
 @media screen and (min-width:860px) {
   @import "style-modules/header.scss";
+
   @import "style-modules/about-desctop.scss";
+  @import "style-modules/works-desktop.scss";
+  @import "style-modules/contacts-desctop.scss";
+
+  @import "style-modules/contacts-page-desctop.scss";
+
   @import "style-modules/footer-desktop.scss";
 }
 @media screen and (max-width:859px){
   @import "style-modules/header-mobile.scss";
+
   @import "style-modules/about-mobile.scss";
+  @import "style-modules/works-mobile.scss";
+  @import "style-modules/contacts-mobile.scss";
+  @import "style-modules/contacts-page-mobile.scss";
+
   @import "style-modules/footer-mobile.scss";
 }
 .section__headline{

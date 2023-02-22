@@ -1,0 +1,25 @@
+.contact{
+  &__wrapper{
+    margin: 40px auto;
+    font-size:18px;
+    width:60%;
+  }
+  &__headline{
+    margin-bottom: 20px;
+    a{
+      font-size: 18px;
+    line-height: 140%;
+    color: #142850;
+    }
+  }
+  &__email{
+    font-style: italic;
+    font-weight: 700;
+    
+  }
+  &__text{
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: .02em;
+  }
+}

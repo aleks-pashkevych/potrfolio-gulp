@@ -7,9 +7,15 @@
     <div class="content__wrapper">
       <main class="main">
         <section class="about">@@include('html/about.html',{})</section>
-        <section class="blog">@@include('html/works.html',{})</section>
-        <section class="work"></section>
+        <section class="works">@@include('html/works.html',{})</section>
+        <section class="contacts">@@include('html/contacts.html',{})</section>
       </main>
+      <works class="page__works hide">
+        @@include('html/works-page.html', {})
+      </works>
+      <contact class="page__contacts hide">
+        @@include('html/contacts-page.html',{})
+      </contact>
       <footer class="footer">@@include('html/footer.html', {})</footer>
     </div>
     <script src="js/script.min.js"></script>

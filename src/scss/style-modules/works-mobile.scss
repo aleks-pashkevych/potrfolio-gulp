@@ -1,0 +1,48 @@
+.works{
+  &__wrapper{
+    margin: 30px auto;
+    padding: 20px;
+  }
+  &__image{
+    margin: 0 auto;
+    max-width:300px;
+  }
+  &__description{
+    margin-top: 40px;
+  }
+  &__img{
+    border-radius:14px;
+  }
+  &__headline{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+  }
+  &__result{
+    line-height: 400%;
+  }
+  &__year{
+    color:#fff;
+    background-color: #142850;
+    border-radius:30px;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 4px 12px;
+    margin-right: 20px;
+  }
+  &__type{
+    color:#8695A4;
+    font-size: 16px;
+    letter-spacing: .04em;
+  }
+  &__definition{
+    font-size:16px;
+    line-height: 140%;
+    letter-spacing: .02em;
+  }
+  &__line{
+    border: 1px solid #E0E0E0;
+    margin: 20px auto;
+    width:60%;
+  }
+}
