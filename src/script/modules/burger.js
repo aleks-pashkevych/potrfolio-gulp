@@ -33,6 +33,9 @@ const burgerAction = () => {
   burgerBtn.onclick = () => {
     burgerStatus == "close" ? openBurgerMenu() : closeBurgerMenu();
   };
+  burgerMenu.onclick = () => {
+    closeBurgerMenu();
+  };
 };
 
 export default burgerAction;
