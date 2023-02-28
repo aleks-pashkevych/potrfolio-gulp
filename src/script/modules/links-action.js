@@ -1,5 +1,5 @@
 const headerLinks = document.querySelectorAll(".header__menu-link");
-
+const logoLink = document.querySelector(".header__icon-link");
 const homePage = document.querySelector(".main");
 const worksPage = document.querySelector(".page__works");
 const contactsPage = document.querySelector(".page__contacts");
@@ -32,6 +32,10 @@ const setContent = (contentHeadline) => {
   }
 };
 const linkAction = () => {
+  logoLink.onclick = () => {
+    setContent("Home");
+    return false;
+  };
   headerLinks.forEach((e) => {
     e.onclick = () => {
       setContent(e.innerText);

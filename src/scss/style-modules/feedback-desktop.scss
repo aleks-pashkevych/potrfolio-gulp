@@ -1,0 +1,68 @@
+.fedback{
+  &__headtext{
+    text-align: center;
+    font-size: 22px;
+  }
+  &__wrapper{
+    display: block;
+    // width:80%;
+    margin: 40px auto;
+    border: solid 2px darkgrey;
+    border-radius:10px;
+    padding: 20px;
+
+  }
+  &__form{
+    padding: 30px;
+    border: solid 2px rgb(49, 48, 48);
+    border-radius:10px;
+    display: flex;
+   
+  }
+  &__label{
+    font-size: 18px;
+    letter-spacing: .01em;
+    width:30%;
+  }
+  &__input{
+    border: solid 1px black;
+    border-radius: 6px;
+    font-size: 18px;
+    width:60%;
+  }
+  &__message{
+    border: solid 1px black;
+    border-radius: 6px;
+    font-size: 18px;
+    width:60%;
+    &:valid{
+      border: solid 1px black;
+    }
+    &:invalid{
+      padding: 10px;
+      border: dotted 2px red;
+    }
+  }
+}
+.form{
+  &__wrapper{
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap:30px;
+  }
+  &__submit{
+   margin-top: 40px;
+   margin-left: 60%;
+   margin-bottom: 20px;
+   width:200px;
+   height: 80px;
+   text-align: center;
+   line-height: 200%;
+   font-size: 30px;
+   font-weight: 700;
+   border-radius:20px;
+
+  }
+}

@@ -43,6 +43,7 @@ body{
   @import "style-modules/contacts-desctop.scss";
 
   @import "style-modules/contacts-page-desctop.scss";
+  @import "style-modules/feedback-desktop.scss";
 
   @import "style-modules/footer-desktop.scss";
 }
@@ -52,7 +53,9 @@ body{
   @import "style-modules/about-mobile.scss";
   @import "style-modules/works-mobile.scss";
   @import "style-modules/contacts-mobile.scss";
+
   @import "style-modules/contacts-page-mobile.scss";
+  @import "style-modules/feedback-mobile";
 
   @import "style-modules/footer-mobile.scss";
 }

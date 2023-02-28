@@ -76,3 +76,40 @@
     </div>
   </div>
 </div>
+
+<div class="messages__wrapper">
+  <h2 class="messages__headline">Messages:</h2>
+</div>
+
+<div class="fedback__wrapper">
+  <h2 class="fedback__headtext">You can write me e-mail:</h2>
+  <form
+    action="mailto:alekspashkevych@gmail.com"
+    method="post"
+    class="feedback__form"
+  >
+    <div class="form__wrapper">
+      <label for="FName" class="fedback__label">Enter Your Name:</label>
+      <input type="text" name="FName" id="FName" class="fedback__input" />
+    </div>
+
+    <div class="form__wrapper">
+      <label for="email" class="fedback__label">Enter Your Email</label>
+      <input type="email" name="email" id="email" class="fedback__input" />
+    </div>
+
+    <div class="form__wrapper">
+      <label for="form-message" class="fedback__label"
+        >Enter Your Message</label
+      >
+      <textarea
+        name="Message"
+        id="form-message"
+        rows="10"
+        placeholder="Please Put Your Message Here."
+        class="fedback__message"
+      ></textarea>
+    </div>
+    <input type="submit" value="Submit" class="form__submit" />
+  </form>
+</div>
