@@ -35,6 +35,7 @@ body{
     height: 100px;
   }
 }
+// ! Desktop
 @media screen and (min-width:860px) {
   @import "style-modules/header.scss";
 
@@ -44,15 +45,19 @@ body{
 
   @import "style-modules/contacts-page-desctop.scss";
   @import "style-modules/feedback-desktop.scss";
+  @import "style-modules/messages-desktop.scss";
 
   @import "style-modules/footer-desktop.scss";
 }
+
+// ? Mobile
 @media screen and (max-width:859px){
   @import "style-modules/header-mobile.scss";
 
   @import "style-modules/about-mobile.scss";
   @import "style-modules/works-mobile.scss";
   @import "style-modules/contacts-mobile.scss";
+  @import "style-modules/messages-mobile.scss";
 
   @import "style-modules/contacts-page-mobile.scss";
   @import "style-modules/feedback-mobile";

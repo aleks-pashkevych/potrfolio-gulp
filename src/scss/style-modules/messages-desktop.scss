@@ -1,0 +1,42 @@
+.messages{
+  &__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+  }
+  &__wrapper{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:6%;
+  }
+  &__headline{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: .02em;
+    opacity: .6;
+  }
+  &__headtext{
+    font-size: 26px;
+    font-weight: 600;
+  }
+  &__content{
+    font-size: 18px;
+    letter-spacing: .02em;
+    line-height: 160%;
+    padding: 10px;
+  }
+  &__time{
+    text-align: right;
+    padding-right: 20%;
+    opacity: .6;
+    letter-spacing: .04em;
+  }
+  &__icon{
+    cursor: pointer;
+  }
+}
